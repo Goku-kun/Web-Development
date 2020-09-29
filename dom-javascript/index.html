@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DOM</title>
+      <style>
+            p {
+                  cursor: pointer;
+                  background-color: crimson;
+                  border: 1px solid black;
+                  box-shadow: 1px 1px 1px 1px;
+                  width: fit-content;
+                  padding: 2px 4px;
+            }
+      </style>
+</head>
+<body onload = "alert(123);">
+      <p onclick="this.innerHTML = Date()">Lasagna!</p>
+      <p onclick="this.innerHTML = parseInt(this.innerHTML) + 1;">0</p>
+      <p id="PTAG" onclick="changePtag();">Hello, World!</p>
+      <p id ='gonnachange'>SOMETHING</p>
+      <button onclick="changeScript();">Click</button>
+      <button onclick="namechange();">Enter Name!</button>
+      <script>
+            document.write("<h1 style='color: red;'>Hello, world!</h1>");
+            function changeScript() {
+                  change();
+            }
+            function change() {
+                  document.write(`<p id="hello">Hello, World!</p>
+                  <button onclick="changeScript();">Click</button>`);
+            }
+            function changePtag() {
+                  let pTag = document.getElementById('PTAG');
+                  pTag.innerHTML = '<h1>Button Clicked!</h1>';
+                  pTag.style.background = "#313233";
+                  pTag.style.color = 'whitesmoke';
+            }
+            function namechange() {
+                  let name = prompt("Enter your name:");
+                  console.log(name);
+                  document.getElementById('gonnachange').innerHTML = name;
+            }
+      </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>dom - 2</title>
+      <style>
+            .class1 {
+                  font-size: 2em;
+                  -webkit-user-select: none;
+            }
+            body {
+                  text-align: center;
+            }
+      </style>
+</head>
+<body>
+      <p class="class1">1</p>
+      <p class="class1">2</p>
+      <p class="class1">3</p>
+      <p class="class1">4123213</p>
+      <p class="class1">5</p>
+      <script>
+            let pTags = document.getElementsByClassName('class1')
+            for (let i=0; i<5; i++) {
+                  pTags[i].style.color = 'red';
+            }
+      </script>
+</body>
+</html>

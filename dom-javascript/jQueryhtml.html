@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>jQuery1</title>
+</head>
+<body>
+      <p id="head">Hello, World!</p>
+      <button id="btn">Click</button>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" 
+      crossorigin="anonymous">
+      </script>
+      <script>
+            $('btn').click(function () {
+                  $('#head').text('Clicked');
+            });
+      </script>
+</body>
+</html>
