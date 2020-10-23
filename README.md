@@ -13,3 +13,6 @@ This project contains a webpage which is a blog for the city of New York
 
 ### Project 4 - [Lavish a game of Dates](https://github.com/Goku-kun/Web-Development/tree/master/lavish-webpage)
 This project was submitted for silly hacks 2020 and contains the portion of the work done by me.
+
+### Project 5 - [Design Styles](https://github.com/Goku-kun/Web-Development/tree/master/design-styles-website)
+This project consists of different design styles approved by yours truly.
