@@ -48,6 +48,7 @@ header .container nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .mission .background-image {
@@ -81,7 +82,117 @@ header .container nav a {
     font-weight: bold;
 }
 
+#featuredtea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.featured-tea .major-container {
+    width: 1000px;
+}
+
+.featured-tea .container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 0 20px;
+}
+
+.container-text h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.container-text h4 {
+    font-size: 1.1rem;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.figure-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+.figure-container img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.locations {
+    width: 100%;
+}
+
+.locations .background-image {
+    background-image: url("./../images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 500px;
+}
+
+.locations .background-image h1 {
+    padding-top: 30px;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.boxes {
+    display: inline-flex;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: black;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.box h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.box h3 {
+    font-size: 1.01rem;
+    padding: 10px;
+}
+
+.final {
+    height: 200px;
+}
+
+.final h1 {
+    font-size: 1.4rem;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.final h2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+footer p {
+    margin: 15px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+t
 /*
 
 */
