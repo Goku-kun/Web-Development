@@ -1,3 +1,63 @@
 body {
     background-color: black;
+    display: block;
+    text-align: center;
+}
+
+.h1-section1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.a-section1 {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+.p-section1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.video-section1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.h2-section2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    margin: 30px;
+    color: white;
+}
+
+.h3-section2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    margin: 20px;
+}
+
+.camp-image {
+    margin-bottom: 20px;
+}
+
+.p-section2 {
+    text-align: center;
+    margin: 40px;
+}
+
+footer p {
+    text-align: right;
+    color: gray;
+    font-size: 21px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
