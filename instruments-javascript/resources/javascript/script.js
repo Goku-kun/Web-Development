@@ -15,3 +15,4 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key')
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 document.addEventListener('keydown', playSound);
+document.addEventListener('pointerup', playSound);
