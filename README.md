@@ -33,3 +33,5 @@ This project consists of different projects and practices done under the Javascr
 
 ### Project 10 - [Project Tea Cozy](https://goku-kun.github.io/Web-Development/tea-cozy-project/index.html)
 This project is about a Tea Shop website. Took me some time to make this!
+
+`[Work in progress]`
