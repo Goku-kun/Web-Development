@@ -34,4 +34,12 @@ This project consists of different projects and practices done under the Javascr
 ### Project 10 - [Project Tea Cozy](https://goku-kun.github.io/Web-Development/tea-cozy-project/index.html)
 This project is about a Tea Shop website. Took me some time to make this!
 
+### Project 11 - [Bug Dodger Game](https://goku-kun.github.io/Web-Development/game-development-with-phaser/game-1-dodge-the-bugs/index.html)
+This is game made using a javascript framework called Phaser. It's pretty cool. Check it out!
+
+### Project 12 - [JavaScript Drumkit](https://goku-kun.github.io/Web-Development/instruments-javascript/index.html)
+This is a drumkit based on javascript. I've added some CSS animations to make it look cool and it also works on phones!
+
+
 `[Work in progress]`
+`More Projects Coming soon!`
