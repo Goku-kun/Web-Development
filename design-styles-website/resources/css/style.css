@@ -1,167 +1,204 @@
 body {
-      background: #0f0c29;
-      /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      box-sizing: border-box;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-sizing: border-box;
 }
+
+.rotate {
+    transition: all 0.7s;
+    transform: scale(1.05);
+    border: 1.5px yellow solid;
+    background-color: #ff9a00;
+}
+
 .header {
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      margin: 1em;
-      display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    display: inline;
 }
+
 .header .logo {
-      color: antiquewhite;
-      float: left;
-      margin-left: 1em;
-      margin-top: 1em;
-      font-size: large;
+    color: antiquewhite;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: large;
 }
+
 .header li {
-      display: inline;
-      border: seashell solid 2px;
-      float: right;
-      padding: 10px;
+    display: inline;
+    background-color: #302b63;
+    border: seashell solid 2px;
+    float: right;
+    padding: 10px;
 }
+
 .header li a {
-      text-decoration: none;
+    text-decoration: none;
 }
 
 .banner h1 {
-      font-family: "Sansita Swashed", cursive, sans-serif;
-      font-size: 50px;
-      color: whitesmoke;
-      text-align: center;
-      margin-top: 25px;
+    font-family: "Sansita Swashed", cursive, sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 25px;
 }
+
 .banner h2 {
-      font-family: "Sansita Swashed", cursive, sans-serif;
-      font-size: 40px;
-      color: antiquewhite;
-      text-align: center;
-      margin-top: 100px;
+    font-family: "Sansita Swashed", cursive, sans-serif;
+    font-size: 40px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 100px;
 }
+
 .colors {
-      background-color: white;
-      margin: 50px;
-      padding: 10px 0px 20px 0px;
+    background-color: white;
+    margin: 50px;
+    padding: 10px 0px 20px 0px;
 }
+
 .colors h1 {
-      text-transform: uppercase;
-      font-size: 40px;
-      font-weight: bold;
-      text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
+
 .colors p {
-      text-align: center;
-      font-weight: bolder;
-      font-size: 2em;
-      padding: 1em;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 1em;
 }
-.colors table tr td{
-      width: 270px;
-      height: 20px;
-      text-align: center;
-      padding: 25px 5px;
-      border: black solid 2px;
-      font-weight: bold;
+
+.colors table tr td {
+    width: 270px;
+    height: 20px;
+    text-align: center;
+    padding: 25px 5px;
+    border: black solid 2px;
+    font-weight: bold;
 }
+
 .shade-A1 {
-      background-color: #032535;
-      color: white;
+    background-color: #032535;
+    color: white;
 }
+
 .shade-A2 {
-      background-color: #ffb515;
+    background-color: #ffb515;
 }
+
 .shade-A3 {
-      background-color: #ff9a00;
+    background-color: #ff9a00;
 }
+
 .shade-A4 {
-      background-color: #ff5700;
+    background-color: #ff5700;
 }
+
 .shade-A5 {
-      background-color: #da4302;
+    background-color: #da4302;
 }
+
 .shade-B1 {
-      background-color: #AB9B96;
+    background-color: #AB9B96;
 }
+
 .shade-B2 {
-      background-color: #F0E7D8;
+    background-color: #F0E7D8;
 }
+
 .shade-B3 {
-      background-color: #C68888;
+    background-color: #C68888;
 }
+
 .shade-B4 {
-      background-color: #BA6E6E;
+    background-color: #BA6E6E;
 }
+
 .shade-B5 {
-      background-color: #A63A50;
+    background-color: #A63A50;
 }
 
 .fonts {
-      background-color: white;
-      margin: 50px;
-      padding: 10px 0px 20px 0px;
-      font-size: 20px;
-      text-align: center;
+    background-color: white;
+    margin: 50px;
+    padding: 10px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .fonts h1 {
-      text-transform: uppercase;
-      font-size: 40px;
-      font-weight: bold;
-      text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
+
 .fonts h2 {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 30px;
-      font-weight: bold;
-      padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .noto-serif {
-      font-family: "Noto Serif", serif;
-      font-size: x-large;
+    font-family: "Noto Serif", serif;
+    font-size: x-large;
 }
+
 .IBM-plex-serif {
-      font-family: "IBM Plex Serif", serif;
-      font-size: x-large;
+    font-family: "IBM Plex Serif", serif;
+    font-size: x-large;
+    padding-bottom: 40px;
 }
+
 .noto-sans-jp {
-      font-family: "Noto Sans JP", sans-serif;
-      font-size: x-large;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: x-large;
 }
+
 .ubuntu {
-      font-family: "Ubunty", sans-serif;
-      font-size: x-large;
+    font-family: "Ubuntu", sans-serif;
+    font-size: x-large;
 }
+
 .text-styles {
-      background-color: white;
-      margin: 50px;
-      padding: 10px 0px 20px 0px;
-      font-size: 20px;
-      text-align: center;
+    background-color: white;
+    margin: 50px;
+    padding: 10px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
 }
+
 .text-styles h1 {
-      text-transform: uppercase;
-      font-size: 40px;
-      font-weight: bold;
-      text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
+
 .bold-style {
-      font-weight: bold;
-      font-size: x-large;
+    font-weight: bold;
+    font-size: x-large;
 }
+
 .italics-style {
-      font-style: italic;
-      font-size: x-large;
+    font-style: italic;
+    font-size: x-large;
 }
+
 .oblique-style {
-      font-style: oblique;
-      font-size: x-large;
+    font-style: oblique;
+    font-size: x-large;
 }
