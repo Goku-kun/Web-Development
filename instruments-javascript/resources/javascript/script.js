@@ -23,4 +23,5 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key')
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 document.addEventListener('keydown', playSound);
-document.addEventListener('pointerup', playSoundPointer);
+keys.forEach(key => key.addEventListener('click', playSoundPointer));
+keys.forEach(key => key.classList.add('noselect')); // not allowing the users to select the text while tapping on the divs multiple times
