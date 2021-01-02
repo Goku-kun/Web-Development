@@ -49,25 +49,16 @@ header .container nav a {
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-}
-
-.mission .background-image {
     background-image: url("./../images/img-mission-background.jpg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
-    display: flex;
-    align-items: center;
 }
 
 .mission-text {
     background-color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     opacity: 0.9;
-    width: 1200px;
+    width: 100%;
 }
 
 .mission-text h2 {
@@ -78,18 +69,16 @@ header .container nav a {
 
 .mission-text h4 {
     font-size: 1.1rem;
-    margin: 10px 10px;
+    margin: 20px 10px;
     font-weight: bold;
 }
 
 #featuredtea {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-}
-
-.featured-tea .major-container {
-    width: 1000px;
 }
 
 .featured-tea .container-text {
@@ -116,14 +105,27 @@ header .container nav a {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0px;
+    width: 80%;
+    justify-self: center;
     justify-content: center;
 }
 
-.figure-container img {
+.figure-container figure img {
     width: 300px;
     height: 200px;
     margin: 10px;
+    transition: all 0.5s;
+}
+
+.figure-container figure img:hover {
+    border-radius: 40%;
+    transform: rotate(-20deg) scale(1.2);
+    margin: 22px;
+}
+
+figcaption {
+    margin: 20px;
 }
 
 .locations {
@@ -155,8 +157,8 @@ header .container nav a {
     flex-flow: column wrap;
     background-color: black;
     margin: 20px;
-    height: 300px;
-    width: 300px;
+    flex: 1 1 300px;
+    padding: 20px;
 }
 
 .box h2 {
@@ -191,8 +193,3 @@ footer p {
     font-size: 1.1rem;
     text-align: left;
 }
-
-t
-/*
-
-*/
