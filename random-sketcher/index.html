@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+</head>
+
+<body>
+    <div class="canvasWrap">
+        <canvas width="1600" height="1000" id="sketch-canvas"></canvas>
+        <div class="buttons">
+            <button class="shake">Shake!</button>
+        </div>
+    </div>
+    <script src="./resources/js/main.js"></script>
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            background: hsla(347, 89%, 61%, 1);
+            background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+            background: -moz-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+            background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1);
+        }
+        
+        canvas {
+            border: 30px solid #e80000;
+            border-radius: 10px;
+            /* Set the width and height to half the actual size so it doesn't look pixelated */
+            width: 800px;
+            height: 500px;
+            background: white;
+        }
+        
+        canvas.shake {
+            animation: shake 0.5s linear 1;
+        }
+        
+        button.shake {
+            color: white;
+            background: #2e2e2e;
+            padding: 1rem;
+            border: 0;
+            border: 2px solid transparent;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        
+        @keyframes shake {
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+    </style>
+</body>
+
+</html>
