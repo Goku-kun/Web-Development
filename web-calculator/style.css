@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background-color: #444;
+    overflow: hidden;
+}
+
+main {
+    padding-top: 10%;
+}
+
+.answer-block {
+    background-color: black;
+    font-size: 70px;
+    text-align: right;
+    overflow: scroll;
+}
+
+.btn {
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+.btn-outline-secondary {
+    background-color: lightgrey;
+}
+
+.btn-outline-primary {
+    background-color: lightblue;
+}
