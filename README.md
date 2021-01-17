@@ -40,6 +40,8 @@ This is game made using a javascript framework called Phaser. It's pretty cool. 
 ### Project 12 - [JavaScript Drumkit](https://goku-kun.github.io/Web-Development/instruments-javascript/index.html)
 This is a drumkit based on javascript. I've added some CSS animations to make it look cool and it also works on phones!
 
+### Project 13 - [Web Calculator](https://goku-kun.github.io/Web-Development/web-calculator/index.html)
+This is a limited web calculator made using Vanilla JS and Bootstrap.
 
 `[Work in progress]`
 `More Projects Coming soon!`
