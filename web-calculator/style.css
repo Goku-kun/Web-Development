@@ -5,18 +5,22 @@ body {
 }
 
 main {
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .answer-block {
     background-color: black;
-    font-size: 70px;
+    font-size: 90px;
     text-align: right;
     overflow: scroll;
 }
 
+.answer-block::-webkit-scrollbar {
+    display: none;
+}
+
 .btn {
-    font-size: 40px;
+    font-size: 55px;
     border: 2px solid black;
 }
 
