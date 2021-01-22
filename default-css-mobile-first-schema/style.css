@@ -23,7 +23,13 @@ body {
 }
 
 a {
-    color: #2772B0;
+    color: #1EAEDB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0FA0CE;
 }
 
 
