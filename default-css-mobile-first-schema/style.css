@@ -1,0 +1,47 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+
+/* Mobile first css layout */
+
+html {
+    box-sizing: border-box;
+}
+
+
+/* inherit border-box on all elements in the universe and before and after
+ */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Geneva, sans-serif;
+}
+
+a {
+    color: #2772B0;
+}
+
+
+/* Mobile Landscape Screen Sizes */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Tablet screen Sizes */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop Screen Sizes */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* Large Screen sizes */
+
+@media only screen and (min-width: 1440px) {}
