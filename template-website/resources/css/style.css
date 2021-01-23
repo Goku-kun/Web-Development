@@ -55,7 +55,7 @@ img:hover {
 }
 
 header {
-    background-color: var(--sandy-brown);
+    /* background-color: var(--sandy-brown); */
 }
 
 nav {
@@ -126,7 +126,8 @@ nav {
     }
     footer {
         grid-area: 7 / 1 / span 1 / span 2;
-        color: black margin: 10px;
+        color: goldenrod;
+        margin: 10px;
     }
 }
 
