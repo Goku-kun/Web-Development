@@ -1,0 +1,128 @@
+:root {
+    --charcoal: #264653;
+    --persian-green: #2A9D8F;
+    --orange-yellow: #E9C46A;
+    --sandy-brown: #F4A261;
+    --burnt-sienna: #E76F51;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Geneva, sans-serif;
+    font-size: 18px;
+    color: var(--persian-green)
+}
+
+
+/* inherit border-box on all elements in the universe and before and after
+ */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 5px;
+    border: 5px solid var(--orange-yellow);
+    border-radius: 15%;
+}
+
+a:hover {
+    color: #0FA0CE;
+}
+
+body {
+    background-color: var(--charcoal);
+    display: grid;
+    height: 100vh;
+}
+
+img {
+    transition: all 0.3s;
+    margin: 20px;
+}
+
+img:hover {
+    transform: rotate(10deg) scale(1.2);
+    border-radius: 50%;
+}
+
+header {
+    background-color: var(--sandy-brown);
+}
+
+nav {
+    background-color: var(--burnt-sienna);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Mobile Landscape Screen Sizes */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Tablet screen Sizes */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop Screen Sizes */
+
+@media only screen and (min-width: 1024px) {
+    body {
+        /* grid-auto-rows: auto; */
+        grid-template: auto / repeat(5, 1fr);
+    }
+    header {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 5;
+    }
+    main {
+        grid-area: 2 / 1 / span 1 / span 5;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+    }
+    main h2 {
+        text-align: center;
+        grid-area: 1 / 1 / span 1 / span 5;
+    }
+    main h3 {
+        text-align: center;
+        grid-area: 3 / 1 / span 1 / span 5;
+    }
+    main p {
+        margin: 20px;
+        text-align: justify;
+    }
+    .aside {
+        grid-area: 4 / 1 / span 1 / span 2;
+    }
+    .content {
+        grid-area: 4 / 3 / span 1 / span 3;
+    }
+    .gallery {
+        grid-area: 2 / 1 / span 1 / span 5;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    footer {
+        grid-area: 7 / 1 / span 1 / span 2;
+        color: black margin: 10px;
+    }
+}
+
+
+/* Large Screen sizes */
+
+
+/* @media only screen and (min-width: 1440px) {} */
