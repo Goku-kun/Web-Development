@@ -29,7 +29,6 @@ a {
     cursor: pointer;
     margin: 10px 15px;
     padding: 5px;
-    border: 5px solid var(--orange-yellow);
     border-radius: 15%;
 }
 
