@@ -51,7 +51,7 @@ img:hover {
     transform: rotate(10deg) scale(1.2);
     border-radius: 50%;
     /* border: 2px solid goldenrod; */
-    box-shadow: 7px 2px 0px goldenrod;
+    box-shadow: 7px 2px 0px var(--sandy-brown);
 }
 
 header {
