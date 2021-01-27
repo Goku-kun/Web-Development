@@ -1,0 +1,178 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+
+/* Mobile first css layout */
+
+:root {
+    --black: #000000ff;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* inherit border-box on all elements in the universe and before and after
+ */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Geneva, sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a {
+    color: var(--platinum);
+    text-decoration: underline;
+    cursor: pointer;
+    /* border: 2px solid var(--oxford-blue); */
+    margin: 10px 30px;
+}
+
+a:hover {
+    color: var(--orange-web);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: var(--oxford-blue);
+    justify-content: flex-end;
+}
+
+img {
+    width: 25%;
+}
+
+.main img {
+    /* visibility: hidden; */
+    display: none;
+}
+
+figure img {
+    transition: all 0.5s;
+}
+
+figure img:hover {
+    transform: rotate(10deg) scale(1.1);
+    border-radius: 50%;
+    border: 2px solid var(--orange-web);
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.team figure {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: var(--oxford-blue);
+}
+
+.team figure img {
+    width: 70%;
+    margin: 10%;
+}
+
+
+/* Mobile Landscape Screen Sizes */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Tablet screen Sizes */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop Screen Sizes */
+
+@media only screen and (min-width: 1024px) {
+    main {
+        height: 100%;
+    }
+    section.statement {
+        display: flex;
+        width: auto;
+        height: 50vh;
+        background-image: url('./../images/sergey-pesterev-JV78PVf3gGI.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 100%;
+    }
+    .main img {
+        visibility: visible;
+        display: block;
+    }
+    .statement h2 {
+        color: var(--oxford-blue);
+        font-size: 2rem;
+        background-color: var(--black);
+        color: var(--platinum);
+        width: 100%;
+        padding: 20px;
+    }
+    .main {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+    .main p {
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .team {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .team figure {
+        width: 25%;
+    }
+    footer h3 {
+        margin: 10px;
+        text-align: left;
+    }
+    .team figure img {
+        width: 80%;
+        margin: 20px;
+    }
+    figcaption {
+        padding: 20px 0px;
+    }
+}
+
+
+/* Large Screen sizes */
+
+@media only screen and (min-width: 1440px) {}
